@@ -16,7 +16,7 @@ $(document).ready(function () {
         var username_val = $('#username').val();
         if (username_val.length == '') {
             $('#usernamevalidation').show();
-            $('#usernamevalidation').html('Username Cannot be Empty');
+            $('#usernamevalidation').html('Username cannot be empty');
             $('#usernamevalidation').css('color', 'red');
             username_error = false;
             return false;
@@ -46,7 +46,7 @@ $(document).ready(function () {
         var email_val = $('#email').val();
         if (email_val.length == '') {
             $('#emailvalidation').show();
-            $('#emailvalidation').html('Email Cannot be Empty');
+            $('#emailvalidation').html('Email cannot be empty');
             $('#emailvalidation').css('color', 'red');
             email_error = false;
             return false;
@@ -57,7 +57,7 @@ $(document).ready(function () {
 
         if (!email.test(email_val)) {
             $('#emailvalidation').show();
-            $('#emailvalidation').html('Please type Email in correct format');
+            $('#emailvalidation').html('Please type email in correct format. Ex : xqz@domain.com');
             $('#emailvalidation').css('color', 'red');
             email_error = false;
             return false;
@@ -76,7 +76,7 @@ $(document).ready(function () {
         var password_val = $('#password').val();
         if (password_val.length == '') {
             $('#passwordvalidation').show();
-            $('#passwordvalidation').html('Password Cannot be Empty');
+            $('#passwordvalidation').html('Password cannot be empty');
             $('#passwordvalidation').css('color', 'red');
             passowrd_error = false;
             return false;
