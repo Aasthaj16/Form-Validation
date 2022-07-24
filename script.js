@@ -27,7 +27,7 @@ $(document).ready(function () {
 
         if (username_val.length <= 4) {
             $('#usernamevalidation').show();
-            $('#usernamevalidation').html('Username should more than 4 characters');
+            $('#usernamevalidation').html('Username should contain more than 4 characters');
             $('#usernamevalidation').css('color', 'red');
             username_error = false;
             return false;
